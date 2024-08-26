@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(48, 48, 56);
+}
+
+.numberButton {
+  color: white;
+  background-color: brown;
+  margin: 0.2rem;
+}
+
+.buttonsContainer {
+  display: grid;
+  grid-template-columns: 6rem 6rem 6rem;
+  grid-template-rows: 6rem 6rem 6rem;
+}
+
+.inputsContainer {
+  display: grid;
+  grid-template-columns: 3.6rem 3.6rem 3.6rem 3.6rem 3.6rem ;
+  grid-template-rows: 3.6rem;
+}
+
+.output {
+  width: 17.4rem;
+}
